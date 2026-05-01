@@ -1,0 +1,10 @@
+CREATE INDEX idx_users_tenant         ON users(tenant_id);
+CREATE INDEX idx_projects_tenant      ON projects(tenant_id);
+CREATE INDEX idx_tasks_tenant         ON tasks(tenant_id);
+CREATE INDEX idx_subscriptions_tenant ON subscriptions(tenant_id);
+CREATE INDEX idx_users_email          ON users(email);
+CREATE INDEX idx_tasks_project        ON tasks(project_id);
+CREATE INDEX idx_tasks_assignee       ON tasks(assignee_id);
+CREATE INDEX idx_tasks_status         ON tasks(tenant_id, status);
+CREATE INDEX idx_refresh_token_hash   ON refresh_tokens(token_hash);
+CREATE INDEX idx_refresh_user         ON refresh_tokens(user_id);
