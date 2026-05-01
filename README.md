@@ -3,8 +3,8 @@
 A production-grade multi-tenant SaaS platform built with Java Spring Boot, PostgreSQL, and React.js. Designed from a full BRD and TDD before writing any code.
 
 ## Live Demo
-> Deployment in progress — AWS EC2 + RDS
-
+- API Base URL: http://3.27.6.124:8080
+- Swagger UI: http://3.27.6.124:8080/swagger-ui.html
 ## Tech Stack
 
 | Layer | Technology |
